@@ -1,0 +1,243 @@
+.footer_main_container {
+    background-color: #232f3e;
+    height: 300px;
+}
+
+.footer_main_container h2 {
+    position: relative;
+    font-size: 30px;
+    top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+.links span {
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: serif;
+}
+
+.links1 {
+    position: relative;
+    left: 500px;
+    width: 900px;
+}
+
+.links1 span {
+    margin: 40px;
+}
+
+.links2 {
+    position: relative;
+    left: 490px;
+    width: 1200px;
+}
+
+.links2 span {
+    margin: 50px;
+}
+
+.links3 {
+    position: relative;
+    left: 490px;
+    width: 1200px;
+}
+
+.links3 span {
+    margin: 50px;
+}
+
+.links4 {
+    position: relative;
+    left: 490px;
+    width: 1200px;
+}
+
+.links4 span {
+    margin: 50px;
+}
+
+.top_page {
+    position: relative;
+    background-color: #3b4149;
+    height: 40px;
+    top: 30px;
+}
+
+.top_page a {
+    position: relative;
+    top: 8px;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fa-caret-up {
+    position: relative;
+    left: 1060px;
+    bottom: 35px;
+    font-size: 18px;
+}
+
+.contact {
+    position: relative;
+    width: 800px;
+    left: 600px;
+    bottom: 10px;
+}
+
+.contact h3 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 400px;
+    letter-spacing: 1px;
+    bottom: 45px;
+}
+
+.contact .p1 {
+    color: white;
+    position: relative;
+    left: 380px;
+    bottom: 70px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.contact .p2 {
+    color: white;
+    position: relative;
+    left: 380px;
+    bottom: 90px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.fa-mobile-retro {
+    position: relative;
+    left: 320px;
+    top: 55px;
+    font-size: 35px;
+}
+
+.fa-envelope-circle-check {
+    position: relative;
+    left: 290px;
+    top: 90px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:1000px) {
+    .footer_main_container {
+        background-color: #232f3e;
+        height: 300px;
+        width: 400%;
+    }
+
+    .footer_main_container h2 {
+        position: relative;
+        font-size: 30px;
+        top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    .links span {
+        font-size: 25px;
+        font-weight: lighter;
+        font-family: serif;
+    }
+
+    .links1 {
+        position: relative;
+        left: 500px;
+        width: 900px;
+    }
+
+    .links1 span {
+        margin: 40px;
+        position: relative;
+        right: 40%;
+    }
+
+    .links2 {
+        position: relative;
+        left: 490px;
+        width: 1200px;
+    }
+
+    .links2 span {
+        margin: 50px;
+        position: relative;
+        right: 40%;
+    }
+
+    .links3 {
+        position: relative;
+        left: 490px;
+        width: 1200px;
+    }
+
+    .links3 span {
+        margin: 50px;
+        position: relative;
+        right: 40%;
+    }
+
+    .links4 {
+        position: relative;
+        left: 490px;
+        width: 1200px;
+    }
+
+    .links4 span {
+        margin: 50px;
+        position: relative;
+        right: 40%;
+    }
+
+    .contact {
+        position: relative;
+        width: 800px;
+        right: 850%;
+        bottom: 10px;
+    }
+
+    .top_page {
+        position: relative;
+        background-color: #3b4149;
+        height: 40px;
+        width: 400%;
+        top: 30px;
+    }
+
+    .top_page a {
+        position: relative;
+        top: 8px;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .fa-caret-up {
+        position: relative;
+        left: 50%;
+        bottom: 35px;
+        font-size: 18px;
+    }
+}

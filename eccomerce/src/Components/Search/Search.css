@@ -1,0 +1,101 @@
+.search_products {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 35px;
+}
+
+.search_image_icon img {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.search_image_icon {
+    position: relative;
+    padding: 50px;
+    background-color: white;
+    margin-bottom: 40px;
+    margin: 30px;
+    border-radius: 20px;
+    padding: 85px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+}
+
+.search_products_main_container {
+    background-color: ghostwhite;
+    position: relative;
+}
+
+.search_title {
+    position: relative;
+    top: 35px;
+    font-size: 20px;
+    width: 300px;
+    font-weight: bolder;
+    color: darkorange;
+}
+
+.search_price {
+    position: relative;
+    top: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.search_raing {
+    position: relative;
+    top: 60px;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.fa-star {
+    position: relative;
+    color: black;
+    font-size: 18px;
+}
+
+.search_products_main_container input {
+    top: 20px;
+    position: relative;
+    font-size: 27px;
+    color: rgb(151, 146, 146);
+    left: 820px;
+    width: 450px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: white;
+    border: 1px solib rgb(227, 213, 213);
+    box-shadow: rgb(80, 77, 77) 0px 7px 29px;
+}
+
+.search_search {
+    position: relative;
+    top: 20px;
+    height: 130px;
+    background-color: #232f3e;
+}
+
+@media only screen and (max-width:1000px) {
+    .search_products_main_container {
+        background-color: ghostwhite;
+        position: relative;
+        width: 400%;
+    }
+    .search_products_main_container input {
+        top: 20px;
+        position: relative;
+        font-size: 27px;
+        color: rgb(151, 146, 146);
+         left: 40%;
+        width: 450px;
+        height: 80px;
+        border-radius: 15px;
+        background-color: white;
+        border: 1px solib rgb(227, 213, 213);
+        box-shadow: rgb(80, 77, 77) 0px 7px 29px;
+    }
+}

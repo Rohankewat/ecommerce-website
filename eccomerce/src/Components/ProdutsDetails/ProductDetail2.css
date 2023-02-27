@@ -1,0 +1,177 @@
+.product_detail2_image_icon img {
+    position: relative;
+    left: 750px;
+    top: 35px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+    width: 600px;
+    height: 550px;
+    border-radius: 15px;
+}
+
+.product_detail2_title {
+    position: relative;
+    font-size: 35px;
+    width: 800px;
+    left: 750px;
+    top: 60px;
+    color: darkorange;
+}
+
+.product_detail2_price {
+    position: relative;
+    font-size: 25px;
+    top: 80px;
+    left: 750px;
+    color: orange;
+    width: 800px;
+}
+
+.product_detail2_discount {
+    position: relative;
+    font-size: 25px;
+    top: 90px;
+    left: 750px;
+    width: 800px;
+    color: orange;
+
+}
+
+.product_detail2_rating {
+    position: relative;
+    font-size: 25px;
+    left: 750px;
+    width: 800px;
+    color: orange;
+    top: 100px;
+}
+
+.product_detail2_brand {
+    position: relative;
+    font-size: 25px;
+    left: 750px;
+    width: 800px;
+    color: orange;
+    top: 110px;
+}
+
+.product_detail2_category {
+    position: relative;
+    font-size: 25px;
+    left: 750px;
+    width: 800px;
+    color: orange;
+    top: 120px;
+}
+
+.product_detail2_detail {
+    position: relative;
+    font-size: 25px;
+    height: 200px;
+    width: 900px;
+    left: 700px;
+    letter-spacing: 1px;
+    font-family: serif;
+    color: rgb(112, 108, 108);
+    top: 140px;
+}
+
+.product_detail2_button {
+    position: relative;
+    left: 950px;
+    bottom: 420px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid rgb(113, 109, 109);
+    border-radius: 12px;
+}
+
+@media only screen and (max-width:1000px) {
+    .product_detail2_image_icon img {
+        position: relative;
+        left: 150%;
+        top: 35px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+        width: 600px;
+        height: 550px;
+        border-radius: 15px;
+    }
+
+    .product_detail2_button {
+        position: relative;
+        /* left: 950px; */
+        left: 185%;
+        bottom: 420px;
+        width: 150px;
+        height: 50px;
+        border: 1px solid rgb(113, 109, 109);
+        border-radius: 12px;
+    }
+
+    .product_detail2_title {
+        position: relative;
+        font-size: 35px;
+        width: 800px;
+        left: 150%;
+        top: 60px;
+        color: darkorange;
+    }
+
+    .product_detail2_price {
+        position: relative;
+        font-size: 25px;
+        top: 80px;
+        left: 150%;
+        color: orange;
+        width: 800px;
+    }
+
+    .product_detail2_discount {
+        position: relative;
+        font-size: 25px;
+        top: 90px;
+        left: 150%;
+        width: 800px;
+        color: orange;
+
+    }
+
+    .product_detail2_rating {
+        position: relative;
+        font-size: 25px;
+        left: 150%;
+        width: 800px;
+        color: orange;
+        top: 100px;
+    }
+
+    .product_detail2_brand {
+        position: relative;
+        font-size: 25px;
+        left: 150%;
+        width: 800px;
+        color: orange;
+        top: 110px;
+    }
+
+    .product_detail2_category {
+        position: relative;
+        font-size: 25px;
+        left: 150%;
+        width: 800px;
+        color: orange;
+        top: 120px;
+    }
+
+    .product_detail2_detail {
+        position: relative;
+        font-size: 25px;
+        height: 200px;
+        width: 900px;
+        left: 150%;
+        letter-spacing: 1px;
+        font-family: serif;
+        color: rgb(112, 108, 108);
+        top: 140px;
+    }
+
+}

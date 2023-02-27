@@ -1,0 +1,131 @@
+.product_detail1_main_container {
+    position: relative;
+    top: 10px;
+}
+
+.product_detail1_image_icon img {
+    position: relative;
+    left: 780px;
+    width: 600px;
+    top: 25px;
+    height: 650px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.product_detail1_title {
+    position: relative;
+    font-size: 35px;
+    top: 55px;
+    left: 780px;
+    width: 800px;
+    color: darkorange;
+    font-family: serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.product_detail1_price {
+    position: relative;
+    font-size: 35px;
+    left: 780px;
+    top: 60px;
+    font-family: serif;
+    letter-spacing: 1px;
+    width: 800px;
+    color: orange;
+
+}
+
+.product_detail1_category {
+    position: relative;
+    left: 780px;
+    top: 70px;
+    font-size: 35px;
+    font-family: serif;
+    letter-spacing: 1px;
+    width: 800px;
+    color: black;
+    color: orange;
+
+}
+
+.product_detail_dis {
+    position: relative;
+    font-size: 25px;
+    width: 1200px;
+    height: 300px;
+    left: 600px;
+    font-family: serif;
+    color: rgb(112, 108, 108);
+    top: 80px;
+    font-family: serif;
+}
+
+@media only screen and (max-width:1000px) {
+    .product_detail1_main_container {
+        position: relative;
+        top: 10px;
+    }
+
+    .product_detail1_image_icon img {
+        position: relative;
+        left: 170%;
+        width: 600px;
+        top: 25px;
+        height: 650px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .product_detail1_title {
+        position: relative;
+        font-size: 35px;
+        top: 55px;
+        left: 170%;
+        width: 800px;
+        color: darkorange;
+        font-family: serif;
+        font-weight: bolder;
+        letter-spacing: 1px;
+    }
+
+    .product_detail1_price {
+        position: relative;
+        font-size: 35px;
+        left: 170%;
+        top: 60px;
+        font-family: serif;
+        letter-spacing: 1px;
+        width: 800px;
+        color: orange;
+
+    }
+
+    .product_detail1_category {
+        position: relative;
+        left: 170%;
+        top: 70px;
+        font-size: 35px;
+        font-family: serif;
+        letter-spacing: 1px;
+        width: 800px;
+        color: black;
+        color: orange;
+
+    }
+
+    .product_detail_dis {
+        position: relative;
+        font-size: 25px;
+        width: 378%;
+        height: 300px;
+        left: 10%;
+        font-family: serif;
+        color: rgb(112, 108, 108);
+        top: 80px;
+        font-family: serif;
+    }
+}
